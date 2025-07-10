@@ -1,7 +1,8 @@
-count=int(input())
-chr=input()
-for i in range(0,count):
-    if 65<=ord(chr) and ord(chr)<=90:
-        print("#%d %s 는 대문자 입니다."%(i+1,chr))
+list=[85, 65, 77, 83, 75, 22, 98, 88, 38, 100]
+sum=0
+while list:
+    if list[-1]>=80:
+        sum+=list.pop()
     else:
-        print("#%d %s 는 소문자 입니다."%(i+1,chr))
+        list.pop()
+print(sum)
