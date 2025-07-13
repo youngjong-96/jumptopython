@@ -45,11 +45,17 @@ import random
 #     print(f"{i} * {area//i} = {area}")
 
  #5
-n=int(input("난수를 몇 개 생성할까요?: "))
+# n=int(input("난수를 몇 개 생성할까요?: "))
 
-for _ in range(n):
-    r=random.randint(10,20)
-    print(r,end=" ")
-    if r==13: print('\n 13 두두등장!'); break
-else:
-    print('\n난수 생성을 멈춥니다.')
+# for _ in range(n):
+#     r=random.randint(10,20)
+#     print(r,end=" ")
+#     if r==13: print('\n 13 두두등장!'); break
+# else:
+#     print('\n난수 생성을 멈춥니다.')
+
+ #6
+# n=0
+# for i in range(5):
+#     n+=1
+#     print(f"{'*'*n:>5}")
